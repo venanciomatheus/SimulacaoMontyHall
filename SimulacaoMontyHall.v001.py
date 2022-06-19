@@ -121,7 +121,7 @@ consequentemente o teste de simulação ficará mais preciso.
     while True:
         qnt = apenasInt('Digite a quantidade de testes: ')
         if qnt >= 3:
-            if qnt <= 100:
+            if qnt < 100:
                 print(f'\033[36mEu NÃO RECOMENDO que você utilize menos de 100 testes.'
                       f' Mas vamos lá...{alerta}\033[m')
             break
