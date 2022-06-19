@@ -51,6 +51,8 @@ def apenas1e2(qualquer):
                 print('\033[31mERRO: Opção inválida. Escolha [1] ou [2]\033[31m')
                 continue
             print('\033[31mERRO: Você não digitou um número inteiro\033[m')
+
+
 # Definindo emojis
 IV_carros = emojize(' :money_bag:') * 4
 IV_cabras = emojize(':goat: ') * 4
